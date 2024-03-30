@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="goods_image">
+        <item>@drawable/bag</item>
+        <item>@drawable/sunglasses</item>
+        <item>@drawable/belt</item>
+        <item>@drawable/watch</item>
+        <item>@drawable/earrings</item>
+        <item>@drawable/socks</item>
+        <item>@drawable/keyring</item>
+        <item>@drawable/hat</item>
+        <item>@drawable/shrug_bag</item>
+        <item>@drawable/desk</item>
+        <item>@drawable/rack</item>
+        <item>@drawable/ceramic_set</item>
+        <item>@drawable/tea_set</item>
+        <item>@drawable/stone_mug</item>
+        <item>@drawable/tray</item>
+        <item>@drawable/napkin</item>
+        <item>@drawable/planters</item>
+        <item>@drawable/quartet_table</item>
+        <item>@drawable/quattro</item>
+        <item>@drawable/sweater</item>
+        <item>@drawable/tunic</item>
+    </integer-array>
+
+    <string-array name="goods_name">
+        <item>Vagabond sack</item>
+        <item>Stella sunglasses</item>
+        <item>Whitney belt</item>
+        <item>Garden strand</item>
+        <item>Strut earrings</item>
+        <item>Varsity socks</item>
+        <item>Weave keyring</item>
+        <item>Gatsby hat</item>
+        <item>Shrug bag</item>
+        <item>Gilt desk trio</item>
+        <item>Copper wire rack</item>
+        <item>Soothe ceramic set</item>
+        <item>Hurrahs tea set</item>
+        <item>Blue stone mug</item>
+        <item>Rainwater tray</item>
+        <item>Chambray napkins</item>
+        <item>Succulent planters</item>
+        <item>Quartet table</item>
+        <item>Kitchen quattro</item>
+        <item>Clay sweater</item>
+        <item>Sea tunic</item>
+    </string-array>
+
+    <string-array name="goods_price">
+        <item>$120</item>
+        <item>$58</item>
+        <item>$35</item>
+        <item>$98</item>
+        <item>$34</item>
+        <item>$12</item>
+        <item>$16</item>
+        <item>$40</item>
+        <item>$198</item>
+        <item>$58</item>
+        <item>$18</item>
+        <item>$28</item>
+        <item>$34</item>
+        <item>$18</item>
+        <item>$27</item>
+        <item>$16</item>
+        <item>$16</item>
+        <item>$175</item>
+        <item>$129</item>
+        <item>$48</item>
+        <item>$45</item>
+    </string-array>
+
+</resources>

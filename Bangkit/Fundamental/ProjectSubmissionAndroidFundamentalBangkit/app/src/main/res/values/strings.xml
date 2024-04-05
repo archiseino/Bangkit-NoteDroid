@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_result">Search Result</string>
+    <string name="searchbar_hint">Search User Here</string>
+    <string name="profile">Profile</string>
+    <string name="app_name">Github App</string>
+    <string name="tab_followers">Followers</string>
+    <string name="tab_following">Following</string>
+    <string name="image_search_not_found">Image Search Not Found</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="follower_number">123</string>
+    <string name="following_number">123</string>
+</resources>

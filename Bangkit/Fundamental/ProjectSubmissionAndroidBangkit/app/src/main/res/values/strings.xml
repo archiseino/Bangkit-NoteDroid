@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F1 Hall of Fame</string>
+    <string name="email_profile">xenoare@gmail.com</string>
+    <string name="name_profile">Arsyadana Estu Aziz</string>
+    <string name="activity_main_title">Current Driver\'s Grid for 2024</string>
+    <string name="driver_detail">Driver\'s Details</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="my_profile">My Profile</string>
+    <string name="submission_bangkit_basic_android">Submission Bangkit Basic Android</string>
+    <string name="driver">Driver Biography \n\n Driver\'s Name: %1$s \n Driver\'s Nationality: %2$s \n Driver\'s Team: %3$s \n Driver\'s Podium: %4$s.</string>
+
+</resources>

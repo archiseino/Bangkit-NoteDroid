@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/isLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="72dp"
+        tools:listitem="@layout/item_profile"
+        app:layout_behavior="@string/searchbar_scrolling_view_behavior"
+        tools:ignore="PrivateResource">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true">
+        <com.google.android.material.search.SearchBar
+            android:id="@+id/searchBar"
+            style="@style/Widget.Material3.SearchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:forceDefaultNavigationOnClickListener="true"
+            app:menu="@menu/searchbar_menu"
+            android:hint="@string/searchbar_hint" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.search.SearchView
+        android:id="@+id/searchView"
+        style="@style/Widget.Material3.SearchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@id/searchBar"
+        android:hint="@string/searchbar_hint">
+    </com.google.android.material.search.SearchView>
+
+    <ImageView
+        android:id="@+id/ivNotFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/not_found"
+        android:contentDescription="@string/image_search_not_found" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mlkit.md"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:7:3-57
+12-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:7:17-55
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:9:3-64
+14-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:9:20-62
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:10:3-62
+15-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:10:20-60
+16
+17    <!-- For remote config -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:7:5-79
+18-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:7:22-76
+19
+20    <application
+20-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:12:3-65:17
+21        android:name="androidx.multidex.MultiDexApplication"
+22        android:allowBackup="false"
+22-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:13:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\ACER\.gradle\caches\transforms-3\88e2483a52a26e1bfbb914a7707798ae\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@drawable/logo_mlkit"
+25-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:14:7-42
+26        android:label="@string/app_name"
+26-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:15:7-39
+27        android:supportsRtl="true"
+27-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:16:7-33
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:17:7-38
+30        <meta-data
+30-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:20:5-22:64
+31            android:name="com.google.android.gms.version"
+31-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:21:9-54
+32            android:value="@integer/google_play_services_version" />
+32-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:22:9-62
+33
+34        <activity
+34-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:24:5-32:16
+35            android:name="com.google.mlkit.md.MainActivity"
+35-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:25:9-56
+36            android:exported="true"
+36-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:26:9-32
+37            android:screenOrientation="portrait" >
+37-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:27:9-45
+38            <intent-filter>
+38-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:28:7-31:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:29:9-60
+39-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:29:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:30:9-68
+41-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:30:19-66
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:34:5-38:16
+45            android:name="com.google.mlkit.md.LiveObjectDetectionActivity"
+45-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:35:9-71
+46            android:exported="false"
+46-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:36:9-33
+47            android:screenOrientation="portrait" >
+47-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:37:9-45
+48        </activity>
+49        <activity
+49-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:40:5-44:16
+50            android:name="com.google.mlkit.md.LiveBarcodeScanningActivity"
+50-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:41:9-71
+51            android:exported="false"
+51-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:42:9-33
+52            android:screenOrientation="portrait" >
+52-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:43:9-45
+53        </activity>
+54        <activity
+54-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:46:5-50:16
+55            android:name="com.google.mlkit.md.StaticObjectDetectionActivity"
+55-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:47:9-73
+56            android:exported="false"
+56-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:48:9-33
+57            android:screenOrientation="portrait" >
+57-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:49:9-45
+58        </activity>
+59        <activity
+59-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:52:5-56:16
+60            android:name="com.google.mlkit.md.CustomModelObjectDetectionActivity"
+60-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:53:9-78
+61            android:exported="false"
+61-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:54:9-33
+62            android:screenOrientation="portrait" >
+62-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:55:9-45
+63        </activity>
+64        <activity
+64-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:58:5-63:16
+65            android:name="com.google.mlkit.md.settings.SettingsActivity"
+65-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:59:9-69
+66            android:exported="false"
+66-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:60:9-33
+67            android:label="@string/settings_title"
+67-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:61:9-47
+68            android:screenOrientation="portrait" >
+68-->C:\Users\ACER\AndroidStudioProjects\mlkit-showcase\app\src\main\AndroidManifest.xml:62:9-45
+69        </activity>
+70
+71        <service
+71-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:11:9-17:19
+72            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+72-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:12:13-91
+73            android:directBootAware="true"
+73-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:17:13-43
+74            android:exported="false" >
+74-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:13:13-37
+75            <meta-data
+75-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:14:13-16:85
+76                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+76-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:15:17-136
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.mlkit:object-detection:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\513c15a19cc24c24f97e13a9831e7ff1\transformed\jetified-object-detection-17.0.0\AndroidManifest.xml:16:17-82
+78            <meta-data
+78-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8925098d4fd7829b4038d0d2cf9971fd\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+79-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8925098d4fd7829b4038d0d2cf9971fd\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:12:17-133
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.mlkit:object-detection-custom:17.0.0] C:\Users\ACER\.gradle\caches\transforms-3\8925098d4fd7829b4038d0d2cf9971fd\transformed\jetified-object-detection-custom-17.0.0\AndroidManifest.xml:13:17-82
+81            <meta-data
+81-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\3f9b5ae146735ce9e044f515b3a0989e\transformed\jetified-play-services-mlkit-barcode-scanning-18.1.0\AndroidManifest.xml:12:13-14:85
+82                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\3f9b5ae146735ce9e044f515b3a0989e\transformed\jetified-play-services-mlkit-barcode-scanning-18.1.0\AndroidManifest.xml:13:17-120
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\3f9b5ae146735ce9e044f515b3a0989e\transformed\jetified-play-services-mlkit-barcode-scanning-18.1.0\AndroidManifest.xml:14:17-82
+84            <meta-data
+84-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\ACER\.gradle\caches\transforms-3\04c8837b42cdc81a7207e4218e3fbc71\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:14:13-16:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+85-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\ACER\.gradle\caches\transforms-3\04c8837b42cdc81a7207e4218e3fbc71\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:15:17-103
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.mlkit:vision-internal-vkp:18.2.2] C:\Users\ACER\.gradle\caches\transforms-3\04c8837b42cdc81a7207e4218e3fbc71\transformed\jetified-vision-internal-vkp-18.2.2\AndroidManifest.xml:16:17-82
+87            <meta-data
+87-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ACER\.gradle\caches\transforms-3\6b35e284b638b353bc55dc5c4bc2290c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+88                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+88-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ACER\.gradle\caches\transforms-3\6b35e284b638b353bc55dc5c4bc2290c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ACER\.gradle\caches\transforms-3\6b35e284b638b353bc55dc5c4bc2290c\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+90            <meta-data
+90-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+91-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:21:17-120
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:22:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:9:9-13:38
+96            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+96-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:10:13-78
+97            android:authorities="com.google.mlkit.md.mlkitinitprovider"
+97-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:11:13-69
+98            android:exported="false"
+98-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:12:13-37
+99            android:initOrder="99" />
+99-->[com.google.mlkit:common:18.6.0] C:\Users\ACER\.gradle\caches\transforms-3\6947e0b47e7eaf3ac2870f11796439b7\transformed\jetified-common-18.6.0\AndroidManifest.xml:13:13-35
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\efc984f317bea4d71bcb78ddcf19214a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\efc984f317bea4d71bcb78ddcf19214a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\efc984f317bea4d71bcb78ddcf19214a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER\.gradle\caches\transforms-3\efc984f317bea4d71bcb78ddcf19214a\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+105
+106        <provider
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-3\eec64193fa30e32e662899282b064fa0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+107            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-3\eec64193fa30e32e662899282b064fa0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+108            android:authorities="com.google.mlkit.md.lifecycle-process"
+108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-3\eec64193fa30e32e662899282b064fa0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+109            android:exported="false"
+109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-3\eec64193fa30e32e662899282b064fa0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+110            android:multiprocess="true" />
+110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ACER\.gradle\caches\transforms-3\eec64193fa30e32e662899282b064fa0\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+111
+112        <service
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+113            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+114            android:exported="false" >
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+115            <meta-data
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+116                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+117                android:value="cct" />
+117-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ACER\.gradle\caches\transforms-3\026099cdb558e669b8ffc259ff2150e8\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+118        </service>
+119        <service
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+121            android:exported="false"
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" >
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+123        </service>
+124
+125        <receiver
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+127            android:exported="false" />
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ACER\.gradle\caches\transforms-3\b8c974fd007ec5d8484a3353c8d24235\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+128    </application>
+129
+130</manifest>

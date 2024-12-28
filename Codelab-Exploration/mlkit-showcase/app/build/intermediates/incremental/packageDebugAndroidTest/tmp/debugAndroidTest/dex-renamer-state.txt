@@ -1,0 +1,4 @@
+#Mon May 27 18:07:50 WIB 2024
+base.0=C\:\\Users\\ACER\\AndroidStudioProjects\\mlkit-showcase\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

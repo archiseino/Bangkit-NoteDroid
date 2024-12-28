@@ -1,0 +1,1 @@
+-keep class android.support.test.runner.AndroidJUnitRunner { <init>(); }

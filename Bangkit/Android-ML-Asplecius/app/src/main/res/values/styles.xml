@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="colorContainer">@color/md_theme_light_primary</item>
+        <item name="colorOnContainer">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ModalBottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="behavior_peekHeight">48dp</item>
+        <item name="behavior_hideable">false</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Toolbar" parent="">
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_example">Image Example</string>
+    <string name="text_primary">Text Primary</string>
+    <string name="text_subtitle">Text Subtitle</string>
+    <string name="something_wrong">Something was wrong, try it again later.</string>
+    <string name="favorite_menu">Favorite Menu</string>
+    <string name="empty_favorites">You don\'t have any Favorites</string>
+    <string name="title_favorite">favorite</string>
+</resources>

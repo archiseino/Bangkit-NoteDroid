@@ -1,0 +1,11 @@
+package com.dicoding.asclepius.utils
+
+const val IMAGE_URI_EXTRA = "IMAGE_URI_EXTRA"
+const val FIRST_CATEGORY_LABEL_EXTRA = "FIRST_CATEGORY_LABEL_EXTRA"
+const val FIRST_CATEGORY_SCORE_EXTRA = "FIRST_CATEGORY_SCORE_EXTRA"
+const val SECOND_CATEGORY_LABEL_EXTRA = "SECOND_CATEGORY_LABEL_EXTRA"
+const val SECOND_CATEGORY_SCORE_EXTRA = "SECOND_CATEGORY_SCORE_EXTRA"
+const val NEWS_QUERY = "cancer"
+const val NEWS_COUNTRY = "us"
+const val NEWS_CATEGORY = "health"
+const val THEME_SETTINGS = "theme_settings"

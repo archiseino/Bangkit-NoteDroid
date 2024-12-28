@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="error_password">Kata sandi harus minimal 8 karakter</string>
+    <string name="email">Masukkan email Anda</string>
+    <string name="invalid_email">Email tidak valid</string>
+    <string name="password">Masukkan kata sandi Anda</string>
+    <string name="error_email">Alamat email yang valid diperlukan</string>
+    <string name="error_username">Nama pengguna tidak valid</string>
+    <string name="error_password_not_match">Konfirmasi kata sandi tidak cocok</string>
+    <string name="dialog_title">Keluar Aplikasi</string>
+    <string name="dialog_message">Apakah Anda ingin keluar dari aplikasi?</string>
+    <string name="dialog_positive_button" type="id">Ya</string>
+    <string name="dialog_negative_button">Tidak</string>
+    <string name="success_pick_media">Berhasil memilih media</string>
+    <string name="error_pick_media">Kesalahan saat memilih gambar</string>
+    <string name="error_upload">Upload gagal!</string>
+    <string name="detail_story">Detail Cerita</string>
+    <string name="image_desc">Deskripsi Gambar</string>
+    <string name="login_welcome_text">Selamat datang kembali! Senang melihat Anda kembali!</string>
+    <string name="login">Masuk</string>
+    <string name="don_t_have_an_account">Belum memiliki akun?</string>
+    <string name="register_here">Daftar disini</string>
+    <string name="register_welcome_text">Halo! Daftar untuk memulai</string>
+    <string name="username">Masukkan Nama Pengguna Anda</string>
+    <string name="register">Daftar</string>
+    <string name="already_have_an_account">Sudah memiliki Akun?</string>
+    <string name="login_here">Masuk Disini</string>
+    <string name="hello_username">Halo, %1$s</string>
+    <string name="greetings_text">Selamat menikmati pengalaman Anda disini</string>
+    <string name="user_profile">Profil Pengguna</string>
+    <string name="general_settings">Pengaturan Umum</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="log_out">Keluar</string>
+    <string name="have_a_nice_day">Semoga harimu menyenangkan</string>
+    <string name="land_login_welcome_text">Selamat datang kembali!\nSenang melihat Anda \nkembali!</string>
+    <string name="land_register_welcome_text">Halo! Daftar untuk memulai\n</string>
+    <string name="failed_load_map">Gagal untuk load map</string>
+    <string name="retry">Ulangi</string>
+    <string name="failed_permission">Gagal untuk meminta izin</string>
+</resources>

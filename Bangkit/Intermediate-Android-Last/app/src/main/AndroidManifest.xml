@@ -24,7 +24,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDxbqQMh-Boh4qCW5b7MM06bTel4LnrS1I" />
+            android:value="Enter-Here" />
 
         <activity
             android:name=".MainActivity"
